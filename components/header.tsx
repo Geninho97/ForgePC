@@ -55,14 +55,7 @@ export function Header() {
             ))}
           </nav>
 
-          <div className="hidden lg:block">
-            <Button asChild className="h-10 xl:h-11 px-4 xl:px-6 gap-2 font-medium text-sm">
-              <Link href="#contato">
-                Pedir Orçamento
-                <ArrowRight size={16} />
-              </Link>
-            </Button>
-          </div>
+          
 
           <button
             className="lg:hidden p-2 text-foreground hover:bg-white/5 rounded-lg transition-colors"
